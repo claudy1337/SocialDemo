@@ -30,14 +30,14 @@ class BlankFragmentEntries : Fragment() {
         val entrieslist= Constants.getEmployeeData() //данные из бд
         val itemAdapter=EntriesAdapter(entrieslist)
         val recyclerView: RecyclerView =view.findViewById(R.id.recyclerView)
-        val btn: Button = view.findViewById(R.id.button3)
+      //  val btn: Button = view.findViewById(R.id.button3)
         recyclerView.layoutManager = LinearLayoutManager(context)
         recyclerView.adapter = itemAdapter
         recyclerView.adapter = adapter
-        btn.setOnClickListener {
-            val entries = EntriesClass("Aboba Boba", "@aboba_boba", "Внезапно, представители современных социальных резервов преданы социально-демократической анафеме...")
-            adapter.addEntries(entries)
-        }
+       // btn.setOnClickListener {
+      //      val entries = EntriesClass("Aboba Boba", "@aboba_boba", "Внезапно, представители современных социальных резервов преданы социально-демократической анафеме...")
+       //    adapter.addEntries(entries)
+      //  }
 
     }
     companion object {
