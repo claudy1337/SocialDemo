@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         bindingMain = ActivityMainBinding.inflate(layoutInflater)
         setContentView(bindingMain.root)
         bindingMain.imageView.setOnClickListener {
-            val intent = Intent(this@MainActivity, MainActivity2::class.java)
+            val intent = Intent(this@MainActivity, CreatePost::class.java)
             startActivity(intent)
         }
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mHome"
+        android:title="Home"
+        android:icon="@drawable/baseline_fireplace_24"/>
+    <item android:id="@+id/mSearch"
+        android:title="Search"
+        android:icon="@drawable/baseline_fireplace_24"/>
+    <item android:id="@+id/mplaceholder"
+        android:title=""/>
+    <item android:id="@+id/mPerson"
+        android:title="Profile"
+        android:icon="@drawable/baseline_fireplace_24"/>
+    <item android:id="@+id/mSetting"
+        android:title="Setting"
+        android:icon="@drawable/baseline_fireplace_24"/>
+</menu>
